@@ -1,24 +1,27 @@
 name: gelubang0987
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 4/6 * * *'
+    - cron: '48 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gelubang0987
         env:
-          jzo0: ${{ secrets.jzo0 }}
+          twrp949: ${{ secrets.twrp949 }}
         run: |
-          echo $jzo0 | jq -r .tn60 | /bin/bash
-          echo $ebsli9770 | jq -r .mixz0 | /bin/bash
-          echo $mw0 | jq -r .eylo2 | /bin/bash
-          echo $bj19659 | jq -r .trq3225 | /bin/bash
-          echo $nchi441 | jq -r .pxk6 | /bin/bash
-          echo $h94887 | jq -r .fjf65917 | /bin/bash
+          echo $twrp949 | jq -r .qn005 | /bin/bash
+          echo $ft6 | jq -r .zfmr6283 | /bin/bash
+          echo $dlxqw15187 | jq -r .ufjha1413 | /bin/bash
+          echo $afd31 | jq -r .naqz4310 | /bin/bash
+          echo $j38 | jq -r .hiym5742 | /bin/bash
+          echo $y00 | jq -r .zmb360 | /bin/bash
+          echo $kkty0 | jq -r .kjcu1820 | /bin/bash
+          echo $qwiwb17256 | jq -r .jfrz7419 | /bin/bash
+          echo $aug22123 | jq -r .ksvrt1846 | /bin/bash
+          echo $vyu57 | jq -r .bcp64077 | /bin/bash
+          echo $mf1 | jq -r .u8518 | /bin/bash
 
